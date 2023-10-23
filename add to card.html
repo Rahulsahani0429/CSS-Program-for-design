@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add to card propetios</title>
+    <style>
+        .box{
+            width:500px;
+            height:500px;
+            border:4px solid violet;
+            margin:auto ;
+            margin-top: 50px;
+            position: relative;
+
+        }
+        .add{
+            width:100%;
+            height: 20px;
+            background-color: black;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            position: absolute;/*this is work in randomly*/
+            left: 0px;
+            top:-40px;
+            opacity: 0;
+            transition: 3s;
+        }
+        .box:hover .add{
+            top: 0px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="butterfly.jpeg" width="100%" height="100%">
+        <input type"bottom" name="" value="Add to image" class="add">
+    </div>
+    
+</body>
+</html>
